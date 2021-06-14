@@ -9,178 +9,245 @@
     <script src="index.js"></script>
   </head>
   <body>
-    <div>
-      <h2>Hello, my name is</h2>
-      <h1>José Duarte</h1>
-    </div>
+    <div class="main">
+      <div class="greeting-card">
+        <h2>Hello, my name is</h2>
+        <h1>José Duarte</h1>
+      </div>
 
-    <div>
-      <h3>Work Experience</h3>
-      <div>
-        <h4>Open Source Contributor</h4>
-        Several projects - Since 2018
-        <br />
-        <ul>
-          <!-- TODO: link to the projects -->
-          <li>Foam - a personal knowledge management system for VSCode.</li>
-          <li>Novathesis - LaTeX template for MSc and PhD thesis.</li>
-          <li>
-            #[sealed] - a Rust macro implementing the sealed trait pattern.
-          </li>
-        </ul>
+      <div class="bio">
+        <p>
+          I am a MSc student at NOVA-FCT, currently finishing my thesis -
+          <i
+            >Bridging the gap between typestates and Rust in production
+            software</i
+          >.
+        </p>
+        <p>
+          <!-- TODO: link the discord -->
+          In my free time, I contribute to open-source projects and try to help
+          people on the Rust community Discord.
+        </p>
+        <p>
+          My research/work interests revolve around cybersecurity,
+          high-performance computing, distributed systems and programming
+          languages.
+        </p>
+        <p id="contact">
+          <!-- TODO: link the mailto:email@domain.com -->
+          If you think I would be a welcome addition to your team, do not
+          hesitate to contact me.
+        </p>
       </div>
-      <div>
-        <h4>RootLee Capture The Flag Team</h4>
-        Co-Founder, Team Captain & Player - March 2020 / Present
-        <br />
-        <ul>
-          <li>Overview and organize team participation in the competitions.</li>
-          <li>
-            Participated in the CSAW Finals 2020 & ended 4th place in the
-            national rank.
-          </li>
-          <li>
-            As a player, I mostly focused on the Web, Crypto and Reversing
-            categories.
-          </li>
-        </ul>
+      <div class="category" id="work-experience">
+        <h3>Work Experience</h3>
+        <div>
+          <h4>Open Source Contributor</h4>
+          Several projects - <i>Since 2018</i>
+          <br />
+          <ul>
+            <!-- TODO: link to the projects -->
+            <li>Foam - a personal knowledge management system for VSCode.</li>
+            <li>Novathesis - LaTeX template for MSc and PhD thesis.</li>
+            <li>
+              #[sealed] - a Rust macro implementing the sealed trait pattern.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>RootLee Capture The Flag Team</h4>
+          Co-Founder, Team Captain & Player - <i>March 2020 / Present</i>
+          <br />
+          <ul>
+            <li>
+              Overview and organize team participation in the competitions.
+            </li>
+            <li>
+              Participated in the CSAW Finals 2020 & ended 4th place in the
+              national rank.
+            </li>
+            <li>
+              As a player, I mostly focused on the Web, Crypto and Reversing
+              categories.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>FCT NOVA Cybersecurity Group</h4>
+          Co-Founder, Administrator and Speaker -
+          <i>September 2018 / March 2020</i>
+          <br />
+          <ul>
+            <li>Manage the group.</li>
+            <li>Host weekly workshops.</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Caixa Mágica</h4>
+          Summer Internship - <i>June 2019 / September 2019</i>
+          <br />
+          <ul>
+            <li>
+              Developed an Android library & demo app for the Portuguese Citizen
+              Card.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>NOVA-FCT / NOVALINCS</h4>
+          Research Project - <i>February 2018 / July 2018</i>
+          <br />
+          <ul>
+            <li>Partnership with IPMA.</li>
+            <li>Developed a simulation model for the Fire Weather Index.</li>
+            <li>Hands-on experience with CUDA.</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Personal Tutor</h4>
+          Tutored several students on a variety of CS-related topics -
+          <i>Since 2016</i>
+          <br />
+          <ul>
+            <li>Introduction to Programming - C programming.</li>
+            <li>
+              Programming Concepts - introduction to Haskell and functional
+              programming.
+            </li>
+            <li>Computer Networks.</li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <h4>FCT NOVA Cybersecurity Group</h4>
-        Co-Founder, Administrator and Speaker - September 2018 / March 2020
-        <br />
-        <ul>
-          <li>Manage the group.</li>
-          <li>Host weekly workshops.</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Caixa Mágica</h4>
-        Summer Internship - June 2019 / September 2019
-        <br />
-        <ul>
-          <li>
-            Developed an Android library & demo app for the Portuguese Citizen
-            Card.
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h4>FCTNOVA/NOVALINCS</h4>
-        Research Project - February 2018 / July 2018
-        <br />
-        <ul>
-          <li>Partnership with IPMA.</li>
-          <li>Developed a simulation model for the Fire Weather Index.</li>
-          <li>Hands-on experience with CUDA.</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Personal Tutor</h4>
-        Tutored several students on a variety of CS-related topics - Since 2016
-        <br />
-        <ul>
-          <li>Introduction to Programming - C programming.</li>
-          <li>
-            Programming Concepts - introduction to Haskell and functional
-            programming.
-          </li>
-          <li>Computer Networks.</li>
-        </ul>
-      </div>
-    </div>
 
-    <div>
-      <h3>Education</h3>
-      <div>
-        <h4>Computer Science MSc</h4>
-        <ul>
-          <li>
-            FCT NOVA - September 2015 / Present
-            <br />
+      <div class="category" id="education">
+        <h3>Education</h3>
+        <div>
+          <h4>Computer Science MSc</h4>
+          <p class="course-school">
+            NOVA-FCT - <i>September 2015 / Present</i>
+          </p>
+          <table>
+            <tr>
+              <th class="course-name">
+                Modelação e Validação de Sistemas Concorrentes
+              </th>
+              <th class="course-grade">18</th>
+            </tr>
+            <tr>
+              <th class="course-name">Algoritmos e Sistemas Distribuídos</th>
+              <th class="course-grade">17</th>
+            </tr>
+            <tr>
+              <th class="course-name">
+                Confiabilidade de Sistemas Distribuídos
+              </th>
+              <th class="course-grade">17</th>
+            </tr>
+            <tr>
+              <th class="course-name">
+                Segurança de Redes e Sistemas de Computadores
+              </th>
+              <th class="course-grade">17</th>
+            </tr>
+            <tr>
+              <th class="course-name">Redes de Computadores</th>
+              <th class="course-grade">17</th>
+            </tr>
+            <tr>
+              <th class="course-name">
+                Arquitetura e Protocolos de Redes de Computadores
+              </th>
+              <th class="course-grade">16</th>
+            </tr>
+            <tr>
+              <th class="course-name">Sistemas de Computação em Cloud</th>
+              <th class="course-grade">16</th>
+            </tr>
+          </table>
+
+          <p class="course-school">
+            TU Dresden - <i>September 2018 / March 2019</i>
+          </p>
+          <table>
+            <tr>
+              <th class="course-name">Knowledge Graphs</th>
+              <th class="course-grade">17</th>
+            </tr>
+            <tr>
+              <th class="course-name">
+                Parallel Programming and High-Performance Computing
+              </th>
+              <th class="course-grade">16</th>
+            </tr>
+            <tr>
+              <th class="course-name">
+                Application Development for Mobile and Ubiquitous Computing
+              </th>
+              <th class="course-grade">16</th>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="category" id="professional-skills">
+        <h3>Professional Skills</h3>
+        <!-- TODO: take care of this space -->
+        <div class="pro-skills-container">
+          <div class="pro-skills-child">
+            <h4>Programming Languages</h4>
             <ul>
-              <li>Modelação e Validação de Sistemas Concorrentes - 18</li>
-              <li>Algoritmos e Sistemas Distribuídos - 17</li>
-              <li>Confiabilidade de Sistemas Distribuídos - 17</li>
-              <li>Segurança de Redes e Sistemas de Computadores - 17</li>
-              <li>Redes de Computadores - 17</li>
-              <li>Arquitetura e Protocolos de Redes de Computadores - 16</li>
-              <li>Sistemas de Computação em Cloud - 16</li>
+              <li>Java</li>
+              <li>Kotlin</li>
+              <li>Rust</li>
+              <li>Python</li>
+              <li>Go</li>
+              <li>C</li>
+              <li>Bash</li>
             </ul>
-          </li>
-          <li>
-            TU Dresden - September 2018 / March 2019
-            <br />
+          </div>
+          <div class="pro-skills-child">
+            <h4>Tools & Platforms</h4>
             <ul>
-              <li>Knowledge Graphs - 17</li>
-              <li>Parallel Programming and High-Performance Computing - 16</li>
-              <li>
-                Application Development for Mobile and Ubiquitous Computing - 16
-              </li>
+              <li>Linux</li>
+              <li>Git</li>
+              <li>Docker</li>
+              <li>Maven</li>
+              <li>Gradle</li>
+              <li>Azure</li>
+              <li>Heroku</li>
             </ul>
-          </li>
-        </ul>
+          </div>
+        </div>
       </div>
-    </div>
+      <div class="skills-container">
+        <div class="skills-child">
+          <div class="category" id="soft-skills">
+            <h3>Soft Skills</h3>
+            <div>
+              <ul>
+                <li>Teamwork</li>
+                <li>Critical thinking</li>
+                <li>Eager to learn</li>
+                <li>Receptive to feedback</li>
+                <li>Open minded</li>
+                <li>Detail oriented</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <div>
-      <h3>Professional Skills</h3>
-      <div>
-        <h4>Programming Languages</h4>
-        <ul>
-          <li>Java</li>
-          <li>Kotlin</li>
-          <li>Rust</li>
-          <li>Python</li>
-          <li>Go</li>
-          <li>C</li>
-          <li>Bash</li>
-        </ul>
-      </div>
-      <div>
-        <h4>Tools & Platforms</h4>
-        <ul>
-          <li>Linux</li>
-          <li>Git</li>
-          <li>Docker</li>
-          <li>Maven</li>
-          <li>Gradle</li>
-          <li>Azure</li>
-          <li>Heroku</li>
-        </ul>
-      </div>
-    </div>
-
-    <div>
-      <h3>Soft Skills</h3>
-      <div>
-        <ul>
-          <li>Teamwork</li>
-          <li>Critical thinking</li>
-          <li>Eager to learn</li>
-          <li>Receptive to feedback</li>
-          <li>Open minded</li>
-          <li>Detail oriented</li>
-        </ul>
-      </div>
-    </div>
-
-    <div>
-      <h3>Languages</h3>
-      <div>
-        <ul>
-          <li>Portuguese - Native</li>
-          <li>English - Proficient</li>
-          <li>Spanish - Basic understanding</li>
-        </ul>
-      </div>
-    </div>
-
-    <div>
-      <h3>Volunteering</h3>
-      <div>
-        <h4>Portuguese Red Cross - 2018</h4>
-        Hunger Relief Effort
+        <div class="skills-child">
+          <div class="category" id="languages">
+            <h3>Languages</h3>
+            <div>
+              <ul>
+                <li>Portuguese - Native</li>
+                <li>English - Proficient</li>
+                <li>Spanish - Basic understanding</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
