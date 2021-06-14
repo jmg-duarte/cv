@@ -51,11 +51,11 @@ th {
 // }
 
 hr {
-    opacity: 50%;
+  opacity: 50%;
 }
 
 #professional-skills {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 $hover-animation-time: 0.25s;
@@ -63,14 +63,74 @@ $bg-color: #2793c5;
 $text-color: #fbfbfb;
 
 a {
-    background-color: transparent;
-    text-decoration-color: transparent;
-    color: $bg-color;
-    transition: background $hover-animation-time ease-in-out, text-decoration-color $hover-animation-time ease-in-out;
+  background-color: transparent;
+  text-decoration-color: transparent;
+  color: $bg-color;
+  transition: background $hover-animation-time ease-in-out,
+    text-decoration-color $hover-animation-time ease-in-out;
 }
 
 a:hover {
-    color: $bg-color;
-    // background-color: $text-color;
-    text-decoration-color: $bg-color;
+  color: $bg-color;
+  // background-color: $text-color;
+  text-decoration-color: $bg-color;
+}
+
+body {
+  margin: 2em;
+}
+
+article,
+.lable-head,
+.label-name {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.vcard {
+  margin: 0 auto;
+  width: 275px;
+  height: 175px;
+  background: rgb(255, 48, 48);
+  border-radius: 10px;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.25);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+.vcard div:first-child {
+  height: 65px;
+  padding-top: 5px;
+  color: #fff;
+  font-family: Inter, Roboto, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.fn {
+  background: #fff;
+  height: 80px;
+  font-family: Inter, Roboto, sans-serif;
+  text-align: center;
+}
+
+.given-name {
+  height: 80px;
+  line-height: 80px;
+  white-space: nowrap;
+  font-size: 2em;
+  font-weight: bold;
 }
