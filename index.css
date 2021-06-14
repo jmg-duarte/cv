@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Inter, Roboto;
+  font-family: Inter, Roboto, sans-serif;
 }
 
 #contact {
@@ -44,6 +44,26 @@ th {
 
 .pro-skills-child {
   flex: 1;
+}
+
+hr {
+  opacity: 50%;
+}
+
+#professional-skills {
+  margin-bottom: 0;
+}
+
+a {
+  background-color: transparent;
+  text-decoration-color: transparent;
+  color: #2793c5;
+  transition: background 0.25s ease-in-out, text-decoration-color 0.25s ease-in-out;
+}
+
+a:hover {
+  color: #2793c5;
+  text-decoration-color: #2793c5;
 }
 
 /*# sourceMappingURL=index.css.map */

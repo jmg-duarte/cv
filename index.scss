@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Inter, Roboto;
+  font-family: Inter, Roboto, sans-serif;
 }
 
 #contact {
@@ -49,3 +49,28 @@ th {
 // .course-school {
 //     font-style: italic;
 // }
+
+hr {
+    opacity: 50%;
+}
+
+#professional-skills {
+    margin-bottom: 0;
+}
+
+$hover-animation-time: 0.25s;
+$bg-color: #2793c5;
+$text-color: #fbfbfb;
+
+a {
+    background-color: transparent;
+    text-decoration-color: transparent;
+    color: $bg-color;
+    transition: background $hover-animation-time ease-in-out, text-decoration-color $hover-animation-time ease-in-out;
+}
+
+a:hover {
+    color: $bg-color;
+    // background-color: $text-color;
+    text-decoration-color: $bg-color;
+}
