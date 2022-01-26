@@ -1,12 +1,11 @@
 .main {
   margin: auto;
-  width: 70%;
+  // width: 70%;
   min-width: 300px;
-  max-width: 700px;
+  max-width: 900px;
 }
 
 body {
-  // font-family: Inter, Roboto, sans-serif;
   font-family: Inter, 'IBM Plex Sans', sans-serif;
 }
 
@@ -48,10 +47,6 @@ th {
   flex: 1;
 }
 
-// .course-school {
-//     font-style: italic;
-// }
-
 hr {
   opacity: 50%;
 }
@@ -90,48 +85,13 @@ article,
   box-sizing: border-box;
 }
 
-.vcard {
-  margin: 0 auto;
-  width: 275px;
-  height: 175px;
-  background: rgb(255, 48, 48);
-  border-radius: 10px;
-  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 0, 0, 0.25);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  transform: rotate(-10deg);
-}
-
-.vcard div:first-child {
-  height: 65px;
-  padding-top: 5px;
-  color: #fff;
-  font-family: Inter, Roboto, sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 0.2em;
-}
-
-.vcard h1,
-.vcard p {
-  padding: 0;
-  margin: 0;
-}
-
-.vcard h1 {
-  font-size: 2em;
-}
-
-.fn {
-  background: #fff;
-  height: 80px;
-  font-family: Inter, Roboto, sans-serif;
-  text-align: center;
+.intro {
+ display: none;
 }
 
 .given-name {
-  height: 80px;
-  line-height: 80px;
+  font-family: Inter, Roboto, sans-serif;
+  text-align: center;
   white-space: nowrap;
   font-size: 2em;
   font-weight: bold;

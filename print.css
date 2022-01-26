@@ -1,0 +1,93 @@
+.main {
+  margin: auto;
+  min-width: 300px;
+  max-width: 900px;
+}
+
+body {
+  font-family: Inter, "IBM Plex Sans", sans-serif;
+}
+
+#contact {
+  font-style: italic;
+}
+
+table {
+  margin: 0 auto;
+  width: 90%;
+}
+
+th {
+  font-weight: normal;
+}
+
+.course-name {
+  text-align: left;
+  font-style: italic;
+}
+
+.course-grade {
+  text-align: right;
+}
+
+.skills-container {
+  display: flex;
+}
+
+.skills-child {
+  flex: 1;
+}
+
+.pro-skills-container {
+  display: flex;
+}
+
+.pro-skills-child {
+  flex: 1;
+}
+
+hr {
+  opacity: 50%;
+}
+
+#professional-skills {
+  margin-bottom: 0;
+}
+
+a {
+  background-color: transparent;
+  text-decoration-color: transparent;
+  color: #2793c5;
+  transition: background 0.25s ease-in-out, text-decoration-color 0.25s ease-in-out;
+}
+
+a:hover {
+  color: #2793c5;
+  text-decoration-color: #2793c5;
+}
+
+body {
+  margin: 2em;
+}
+
+article,
+.lable-head,
+.label-name {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.intro {
+  display: none;
+}
+
+.given-name {
+  font-family: Inter, Roboto, sans-serif;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=print.css.map */
