@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 2000 2000" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDUnits" value="Points"/>
+</metadata>
+<defs/>
+<g id="Layer-2" vectornator:layerName="Layer 2">
+<path d="M1900 1000C1900 1497.06 1497.06 1900 1000 1900C502.944 1900 100 1497.06 100 1000C100 502.944 502.944 100 1000 100C1497.06 100 1900 502.944 1900 1000Z" fill="#ffffff" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="70"/>
+</g>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M1000 300C613.401 300 300 613.401 300 1000C300 1386.6 613.401 1700 1000 1700C1386.6 1700 1700 1386.6 1700 1000C1700 613.401 1386.6 300 1000 300ZM1000 400C1331.37 400 1600 668.629 1600 1000C1600 1331.37 1331.37 1600 1000 1600C668.629 1600 400 1331.37 400 1000C400 668.629 668.629 400 1000 400Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M1000 500C723.858 500 500 723.858 500 1000C500 1276.14 723.858 1500 1000 1500C1276.14 1500 1500 1276.14 1500 1000C1500 723.858 1276.14 500 1000 500ZM1000 600C1220.91 600 1400 779.086 1400 1000C1400 1220.91 1220.91 1400 1000 1400C779.086 1400 600 1220.91 600 1000C600 779.086 779.086 600 1000 600Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M1200 1000C1200 1110.46 1110.46 1200 1000 1200C889.543 1200 800 1110.46 800 1000C800 889.543 889.543 800 1000 800C1110.46 800 1200 889.543 1200 1000Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M950 203.467L1050 203.467L1050 703.467L950 703.467L950 203.467Z" fill="#000000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="70"/>
+</g>
+</svg>

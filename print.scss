@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Inter, 'IBM Plex Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 #contact {
@@ -16,6 +16,11 @@ body {
 table {
   margin: 0 auto;
   width: 90%;
+}
+
+#header {
+  display: flex;
+  align-items: center;
 }
 
 th {

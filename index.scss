@@ -6,8 +6,7 @@
 }
 
 body {
-  // font-family: Inter, Roboto, sans-serif;
-  font-family: Inter, 'IBM Plex Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 #contact {
@@ -19,13 +18,15 @@ table {
   width: 90%;
 }
 
-th {
-  font-weight: normal;
+#header {
+  display: flex;
+  align-items: center;
 }
 
 .course-name {
   text-align: left;
   font-style: italic;
+  font-weight: normal;
 }
 
 .course-grade {
@@ -60,6 +61,7 @@ hr {
   margin-bottom: 0;
 }
 
+// Smooth Link Hover
 $hover-animation-time: 0.25s;
 $bg-color: #2793c5;
 $text-color: #fbfbfb;
@@ -81,6 +83,8 @@ a:hover {
 body {
   margin: 2em;
 }
+
+// Name card
 
 article,
 .lable-head,

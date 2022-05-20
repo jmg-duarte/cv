@@ -5,20 +5,24 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>José Duarte's CV</title>
+  <link rel="icon" type="image/x-icon" href="/static/UnownFaviconWBG.svg">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-  <link rel="stylesheet" type="text/css" media="print" href="print.css" />
-  <script src="index.js"></script>
+  <!-- CSS for Site & Print -->
+  <link rel="stylesheet" type="text/css" media="screen" href="build/css/index.css" />
+  <link rel="stylesheet" type="text/css" media="print" href="build/css/print.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="main">
 
-    <article class="vcard">
+    <!-- <article class="vcard">
       <div class="intro">
         <h1>Hello</h1>
         <p>my name is</p>
@@ -26,11 +30,12 @@
       <div class="fn">
         <p class="given-name">José Duarte</p>
       </div>
-    </article>
-<!--
-    <br>
-    <br>
-    <br> -->
+    </article> -->
+
+    <div id="header">
+      <img src="static/UnownFaviconWBG.svg" width="10%" align="left">
+      <h1>José Duarte</h1>
+    </div>
 
     <div class="bio">
       <p>
@@ -100,8 +105,6 @@
           <li>Developed a simulation model for the Fire Weather Index.</li>
         </ul>
       </div>
-      <br>
-      <br>
       <div>
         <h3>RootLee Capture The Flag Team</h3>
         Co-Founder, Team Captain & Player - <i>March 2020 / Present</i>
