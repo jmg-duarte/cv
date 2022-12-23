@@ -1,7 +1,8 @@
 .main {
   margin: auto;
+  width: 70%;
   min-width: 300px;
-  max-width: 900px;
+  max-width: 700px;
 }
 
 body {
@@ -22,13 +23,10 @@ table {
   align-items: center;
 }
 
-th {
-  font-weight: normal;
-}
-
 .course-name {
   text-align: left;
   font-style: italic;
+  font-weight: normal;
 }
 
 .course-grade {
@@ -75,24 +73,6 @@ body {
   margin: 2em;
 }
 
-article,
-.lable-head,
-.label-name {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.intro {
-  display: none;
-}
-
-.given-name {
-  font-family: Inter, Roboto, sans-serif;
-  text-align: center;
-  white-space: nowrap;
-  font-size: 2em;
-  font-weight: bold;
-}
+/*# sourceMappingURL=print.scss.map */
 
 /*# sourceMappingURL=print.css.map */

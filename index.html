@@ -15,20 +15,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
     <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400&family=Open+Sans:wght@300;400;500&display=swap"
         rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="main">
 
         <div id="header">
-            <img src="static/UnownFaviconWBG.svg" width="10%" align="left">
-            <h1>José Duarte</h1>
-            <br/>
-            <p><i>Python developer @ <a href="https://www.dystematic.com/">Dystematic</a></i></p>
+            <img src="static/UnownLogo.svg" width="9%" align="left" style="margin-right: 1em;">
+            <div>
+                <h1 style="margin-top: 0; margin-bottom: 0;">José Duarte</h1>
+                <i>Python Developer @ <a href="https://www.dystematic.com/">Dystematic</a></i>
+            </div>
         </div>
 
         <div class="bio">
@@ -46,20 +48,30 @@
                 Python Developer - <i>September 2021 / Present</i>
                 <br />
                 <ul>
-                    <li>
-                        During my time at the company I have worked on:
-                        <ul>
-                            <li>In-house data processing system (akin to Prefect, Airflow and Dagster).<br />
+                    <li>In-house data processing system (akin to Prefect, Airflow and Dagster).<br />
+                        <ul style="list-style: none; padding-left: 0; margin: 8px; max-width: 90%">
+                            <li>
                                 Enabling my data scientists and researchers colleagues
                                 to process all the data behind the company's main product.
                                 I maintained and developed new features for all the components of the system,
-                                from the main server to the worker running each computation.</li>
-                            <li>Libraries supporting the previous system.<br />
+                                from the main server to the worker running each computation.
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>Libraries supporting the previous system.<br />
+                        <ul style="list-style: none; padding-left: 0; margin: 8px; max-width: 90%">
+                            <li>
                                 Such as a data access library with several backends
                                 (SQLite, PostgreSQL, Azure Blob Storage & File System) and
                                 the library glueing together the system and the code running on it,
-                                providing distributed processing abstractions in a simple and idiomatic fashion.</li>
-                            <li>Data ingestion pipeline.<br />
+                                providing distributed processing abstractions in a simple and idiomatic fashion.
+                            </li>
+                        </ul>
+
+                    <li>Data ingestion pipeline.<br />
+                        <ul style="list-style: none; padding-left: 0; margin: 8px; max-width: 90%">
+                            <li>
                                 Seamlessly integrating Prefect and dbt beyond the existing
                                 <a href="https://github.com/PrefectHQ/prefect-dbt">official solution</a> and
                                 extended dbt with a custom validation framework to suit the business requirements.
@@ -105,6 +117,7 @@
                 <ul>
                     <li>Researched the integration of typestates in Rust.</li>
                     <li>Developed an embedded DSL for Rust, using procedural macros.</li>
+                    <li><a href="#publications">Published</a> articles on the topic.</li>
                 </ul>
                 Research Project - <i>February 2018 / July 2018</i>
                 <br />
@@ -113,7 +126,7 @@
                     <li>Hands-on experience with CUDA with a dash of QGIS.</li>
                     <li>Developed a simulation model for the <a
                             href="https://www.ipma.pt/en/enciclopedia/otempo/risco.incendio/index.jsp?print=true">Fire
-                            Weather Index</a>, an important indicator for rural fire danger.</li>
+                            Weather Index</a>.</li>
                 </ul>
             </div>
             <div>
@@ -125,12 +138,7 @@
                         Overview and organize team participation in the competitions.
                     </li>
                     <li>
-                        Participated in the CSAW Finals 2020 and ended 4th place in the
-                        national rank.
-                    </li>
-                    <li>
-                        As a player, I mostly focused on the Web, Crypto and Reversing
-                        categories.
+                        As a player, I focused on Web, Cryptography and Reverse Engineering.
                     </li>
                 </ul>
             </div>
@@ -140,8 +148,7 @@
                 <i>September 2018 / March 2020</i>
                 <br />
                 <ul>
-                    <li>Manage the group.</li>
-                    <li>Host weekly workshops.</li>
+                    <li>Manage the group meetups and activities (such as weekly workshops).</li>
                 </ul>
             </div>
             <div>
@@ -150,8 +157,7 @@
                 <br />
                 <ul>
                     <li>
-                        Developed an Android library and demo app for the Portuguese Citizen
-                        Card.
+                        Developed an Android SDK for the Portuguese Citizen Card.
                     </li>
                 </ul>
             </div>
@@ -196,56 +202,49 @@
                         <th class="course-name">
                             Thesis Presentation - Retrofitting Typestates into Rust
                         </th>
-                        <th class="course-grade">19</th>
+                        <th class="course-grade" title="19 out of 20">19</th>
                     </tr>
                     <tr>
                         <th class="course-name">
-                            Modelação e Validação de Sistemas Concorrentes</br>
-                            (Concurrent System Modelling and Validation)
+                            Concurrent System Modelling and Validation
                         </th>
-                        <th class="course-grade">18</th>
+                        <th class="course-grade" title="18 out of 20">18</th>
                     </tr>
                     <tr>
                         <th class="course-name">
-                            Algoritmos e Sistemas Distribuídos</br>
-                            (Distributed Systems and Algorithms)
+                            Distributed Systems and Algorithms
                         </th>
-                        <th class="course-grade">17</th>
+                        <th class="course-grade" title="17 out of 20">17</th>
                     </tr>
                     <tr>
                         <th class="course-name">
-                            Confiabilidade de Sistemas Distribuídos</br>
-                            (Dependable Distributed Systems)
+                            Dependable Distributed Systems
                         </th>
-                        <th class="course-grade">17</th>
+                        <th class="course-grade" title="17 out of 20">17</th>
                     </tr>
                     <tr>
                         <th class="course-name">
-                            Segurança de Redes e Sistemas de Computadores</br>
-                            (Network and Computer Security)
+                            Network and Computer Security
                         </th>
-                        <th class="course-grade">17</th>
+                        <th class="course-grade" title="17 out of 20">17</th>
                     </tr>
                     <tr>
                         <th class="course-name">
-                            Redes de Computadores</br>
-                            (Computer Networks)
+                            Computer Networks
                         </th>
-                        <th class="course-grade">17</th>
+                        <th class="course-grade" title="17 out of 20">17</th>
                     </tr>
                     <tr>
                         <th class="course-name">
-                            Arquitetura e Protocolos de Redes de Computadores</br>
-                            (Computer Networks' Architecture and Protocols)
+                            Computer Networks' Architecture and Protocols
                         </th>
-                        <th class="course-grade">16</th>
+                        <th class="course-grade" title="16 out of 20">16</th>
                     </tr>
                     <tr>
                         <th class="course-name">
-                            Sistemas de Computação em Cloud</br>
-                            (Cloud Computation Systems)
+                            Cloud Computation Systems
                         </th>
-                        <th class="course-grade">16</th>
+                        <th class="course-grade" title="16 out of 20">16</th>
                     </tr>
                 </table>
 
@@ -255,19 +254,19 @@
                 <table>
                     <tr>
                         <th class="course-name">Knowledge Graphs</th>
-                        <th class="course-grade">17</th>
+                        <th class="course-grade" title="17 out of 20">17</th>
                     </tr>
                     <tr>
                         <th class="course-name">
                             Parallel Programming and High-Performance Computing
                         </th>
-                        <th class="course-grade">16</th>
+                        <th class="course-grade" title="16 out of 20">16</th>
                     </tr>
                     <tr>
                         <th class="course-name">
                             Application Development for Mobile and Ubiquitous Computing
                         </th>
-                        <th class="course-grade">16</th>
+                        <th class="course-grade" title="16 out of 20">16</th>
                     </tr>
                 </table>
             </div>
@@ -281,10 +280,10 @@
                 <div class="pro-skills-child">
                     <h3>Programming Languages</h3>
                     <ul>
-                        <li>Java</li>
-                        <li>Kotlin</li>
-                        <li>Rust</li>
                         <li>Python</li>
+                        <li>Rust</li>
+                        <li>Kotlin</li>
+                        <li>Java</li>
                         <li>Go</li>
                         <li>C</li>
                         <li>Bash</li>
@@ -329,7 +328,7 @@
                         <ul>
                             <li>Portuguese - Native</li>
                             <li>English - Proficient</li>
-                            <li>Spanish - Basic understanding</li>
+                            <li>Spanish - Basic</li>
                         </ul>
                     </div>
                 </div>

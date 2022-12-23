@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 2000 2000" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<g id="Layer-2" vectornator:layerName="Layer 2" visibility="hidden">
+<path d="M1900 1000C1900 1497.06 1497.06 1900 1000 1900C502.944 1900 100 1497.06 100 1000C100 502.944 502.944 100 1000 100C1497.06 100 1900 502.944 1900 1000Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="70"/>
+</g>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<g opacity="1">
+<path d="M1000 129.008C483.34 129.008 64.5041 547.844 64.5041 1064.5C64.5041 1581.16 483.34 2000 1000 2000C1516.66 2000 1935.5 1581.16 1935.5 1064.5C1935.5 547.844 1516.66 129.008 1000 129.008ZM1000 262.651C1442.85 262.651 1801.85 621.653 1801.85 1064.5C1801.85 1507.36 1442.85 1866.36 1000 1866.36C557.148 1866.36 198.146 1507.36 198.146 1064.5C198.146 621.653 557.148 262.651 1000 262.651Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M1000 396.293C630.957 396.293 331.789 695.461 331.789 1064.5C331.789 1433.55 630.957 1732.72 1000 1732.72C1369.04 1732.72 1668.21 1433.55 1668.21 1064.5C1668.21 695.461 1369.04 396.293 1000 396.293ZM1000 529.935C1295.23 529.935 1534.57 769.27 1534.57 1064.5C1534.57 1359.74 1295.23 1599.07 1000 1599.07C704.766 1599.07 465.431 1359.74 465.431 1064.5C465.431 769.27 704.766 529.935 1000 529.935Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M1267.28 1064.5C1267.28 1212.12 1147.62 1331.79 1000 1331.79C852.383 1331.79 732.715 1212.12 732.715 1064.5C732.715 916.887 852.383 797.22 1000 797.22C1147.62 797.22 1267.28 916.887 1267.28 1064.5Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="none"/>
+<path d="M933.179 1.7053e-13L1066.82 1.7053e-13L1066.82 668.211L933.179 668.211L933.179 1.7053e-13Z" fill="#000000" fill-rule="nonzero" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" stroke-width="70"/>
+</g>
+</g>
+</svg>

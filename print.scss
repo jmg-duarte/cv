@@ -1,12 +1,12 @@
 .main {
   margin: auto;
-  // width: 70%;
+  width: 70%;
   min-width: 300px;
-  max-width: 900px;
+  max-width: 700px;
 }
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 
 #contact {
@@ -23,13 +23,10 @@ table {
   align-items: center;
 }
 
-th {
-  font-weight: normal;
-}
-
 .course-name {
   text-align: left;
   font-style: italic;
+  font-weight: normal;
 }
 
 .course-grade {
@@ -60,44 +57,20 @@ hr {
   margin-bottom: 0;
 }
 
-$hover-animation-time: 0.25s;
-$bg-color: #2793c5;
-$text-color: #fbfbfb;
-
 a {
   background-color: transparent;
   text-decoration-color: transparent;
-  color: $bg-color;
-  transition: background $hover-animation-time ease-in-out,
-    text-decoration-color $hover-animation-time ease-in-out;
+  color: #2793c5;
+  transition: background 0.25s ease-in-out, text-decoration-color 0.25s ease-in-out;
 }
 
 a:hover {
-  color: $bg-color;
-  // background-color: $text-color;
-  text-decoration-color: $bg-color;
+  color: #2793c5;
+  text-decoration-color: #2793c5;
 }
 
 body {
   margin: 2em;
 }
 
-article,
-.lable-head,
-.label-name {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.intro {
- display: none;
-}
-
-.given-name {
-  font-family: Inter, Roboto, sans-serif;
-  text-align: center;
-  white-space: nowrap;
-  font-size: 2em;
-  font-weight: bold;
-}
+/*# sourceMappingURL=print.scss.map */
