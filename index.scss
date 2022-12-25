@@ -1,9 +1,51 @@
 .main {
   margin: auto;
-  width: 70%;
+  width: 90%;
   min-width: 300px;
   max-width: 700px;
 }
+
+hr {
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+
+.vspace-16 {
+  height: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.vspace-bar-16 {
+  height: 1px;
+  opacity: 25%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.work-experience-job-header h3 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.work-experience-job-header span {
+  font-weight: 300;
+}
+
+.work-experience-job-body p {
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  max-width: 90%;
+}
+
+.work-experience-job-body h4 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
 body {
   font-family: 'Fira Sans', sans-serif;
 }
@@ -52,30 +94,22 @@ table {
 //     font-style: italic;
 // }
 
-hr {
-  opacity: 50%;
-}
-
 #professional-skills {
   margin-bottom: 0;
 }
 
 // Smooth Link Hover
-$hover-animation-time: 0.25s;
 $bg-color: #2793c5;
 $text-color: #fbfbfb;
 
 a {
   background-color: transparent;
-  text-decoration-color: transparent;
-  color: $bg-color;
-  transition: background $hover-animation-time ease-in-out,
-    text-decoration-color $hover-animation-time ease-in-out;
+  text-decoration-color: black;
+  color: black;
 }
 
 a:hover {
   color: $bg-color;
-  // background-color: $text-color;
   text-decoration-color: $bg-color;
 }
 

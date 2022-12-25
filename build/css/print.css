@@ -1,8 +1,46 @@
-.main {
-  margin: auto;
-  width: 70%;
-  min-width: 300px;
-  max-width: 700px;
+hr {
+  display: block;
+  height: 1px;
+  background: transparent;
+  width: 100%;
+  border: none;
+  border-top: solid 1px #aaa;
+}
+
+.vspace-16 {
+  height: 0px;
+  border-top: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.vspace-bar-16 {
+  height: 1px;
+  opacity: 25%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.work-experience-job-header h3 {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.work-experience-job-header span {
+  font-weight: 300;
+}
+
+.work-experience-job-body p {
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  max-width: 90%;
+}
+
+.work-experience-job-body h4 {
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 body {
@@ -49,30 +87,16 @@ table {
   flex: 1;
 }
 
-hr {
-  opacity: 50%;
-}
-
 #professional-skills {
   margin-bottom: 0;
 }
 
 a {
-  background-color: transparent;
-  text-decoration-color: transparent;
   color: #2793c5;
-  transition: background 0.25s ease-in-out, text-decoration-color 0.25s ease-in-out;
-}
-
-a:hover {
-  color: #2793c5;
-  text-decoration-color: #2793c5;
 }
 
 body {
   margin: 2em;
 }
-
-/*# sourceMappingURL=print.scss.map */
 
 /*# sourceMappingURL=print.css.map */

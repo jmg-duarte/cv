@@ -4,10 +4,14 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="José Duarte CV">
     <title>José Duarte's CV</title>
-    <link rel="icon" type="image/x-icon" href="static/UnownFaviconWBG.svg">
+
+
+    <link rel="icon" type="image/x-icon" href="static/images/UnownFaviconWBG.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- CSS for Site & Print -->
+    <link rel="stylesheet" type="text/css" href="static/css/all.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="build/css/index.css" />
     <link rel="stylesheet" type="text/css" media="print" href="build/css/print.css" />
 
@@ -26,165 +30,186 @@
     <div class="main">
 
         <div id="header">
-            <img src="static/UnownLogo.svg" width="9%" align="left" style="margin-right: 1em;">
+            <img src="static/images/UnownLogo.svg" width="9%" align="left" style="margin-right: 1em;">
             <div>
                 <h1 style="margin-top: 0; margin-bottom: 0;">José Duarte</h1>
-                <i>Python Developer @ <a href="https://www.dystematic.com/">Dystematic</a></i>
+                <i>Python Developer at <a href="https://www.dystematic.com/">Dystematic</a></i>
             </div>
         </div>
 
         <div class="bio">
             <p>
-                My main areas of interest are programming languages, distributed systems,
-                low-level programming and high-performance computing,
-                but I am always open to expand my horizons.
+                Interested in programming languages, distributed systems,
+                low-level programming and high-performance computing.
+            </p>
+            <p>
+                You can find me on
+                <a class="icon" target="_blank" href="https://github.com/jmg-duarte">
+                    <i class="fab fa-github"></i></a> &
+                <a class="icon" target="_blank" href="https://www.linkedin.com/in/jmgduarte/">
+                    <i class="fab fa-linkedin"></i></a>
+
             </p>
         </div>
         <hr />
         <div class="category" id="work-experience">
             <h2>Work Experience</h2>
-            <div>
-                <h3>Dystematic Ltd.</h3>
-                Python Developer - <i>September 2021 / Present</i>
-                <br />
-                <ul>
-                    <li>In-house data processing system (akin to Prefect, Airflow and Dagster).<br />
-                        <ul style="list-style: none; padding-left: 0; margin: 8px; max-width: 90%">
-                            <li>
-                                Enabling my data scientists and researchers colleagues
-                                to process all the data behind the company's main product.
-                                I maintained and developed new features for all the components of the system,
-                                from the main server to the worker running each computation.
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>Libraries supporting the previous system.<br />
-                        <ul style="list-style: none; padding-left: 0; margin: 8px; max-width: 90%">
-                            <li>
-                                Such as a data access library with several backends
-                                (SQLite, PostgreSQL, Azure Blob Storage & File System) and
-                                the library glueing together the system and the code running on it,
-                                providing distributed processing abstractions in a simple and idiomatic fashion.
-                            </li>
-                        </ul>
-
-                    <li>Data ingestion pipeline.<br />
-                        <ul style="list-style: none; padding-left: 0; margin: 8px; max-width: 90%">
-                            <li>
-                                Seamlessly integrating Prefect and dbt beyond the existing
-                                <a href="https://github.com/PrefectHQ/prefect-dbt">official solution</a> and
-                                extended dbt with a custom validation framework to suit the business requirements.
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                <h3>Open Source Contributor & Maintainer</h3>
-                Several projects - <i>Since 2018</i>
-                <br />
-                I have written some of my own libraries:
-                <ul>
-                    <li>
-                        <a href="https://github.com/jmg-duarte/sealed-rs">#[sealed]</a> -
-                        a procedural macro implementing the sealed trait pattern.<br>
-                        <i>December 2020 / Present</i>
-                    </li>
-                    <li>
-                        <a href="https://github.com/rustype/typestate-rs">#[typestate]</a> -
-                        a procedural macro typestate DSL for Rust.<br>
-                        <i>November 2020 / August 2022</i>
-                    </li>
-                </ul>
-                And have also contributed to some open source projects:
-                <ul>
-                    <li>Pandas (<a href="https://github.com/pandas-dev/pandas/pull/44722">#44722</a>, <a
-                            href="https://github.com/pandas-dev/pandas/pull/45048">#45048</a>, <a
-                            href="https://github.com/pandas-dev/pandas/pull/44720">#44720</a>)</li>
-                    <li>SQLAlchemy (<a href="https://github.com/sqlalchemy/sqlalchemy/pull/7563">#7563</a>)</li>
-                    <li>Python LZ4 (<a href="https://github.com/python-lz4/python-lz4/pull/255">#255</a>)</li>
-                    <li>Foam (<a
-                            href="https://github.com/foambubble/foam/pulls?q=is%3Apr+author%3Ajmg-duarte">Several</a>)
-                    </li>
-                    <li>Prefect (<a
-                            href="https://github.com/PrefectHQ/prefect/pulls?q=is%3Apr+author%3Ajmg-duarte+">Several</a>)
-                    </li>
-                </ul>
+            <div class="work-experience-job">
+                <div class="work-experience-job-header">
+                    <h3>Python Developer at Dystematic</h3>
+                    <span>September 2021 - Present</span>
+                </div>
+                <hr class="vspace-16" />
+                <div class="work-experience-job-body">
+                    <h4>In-house data processing system (akin to Prefect, Airflow and Dagster)</h4>
+                    <p>
+                        Enabling data scientists and researchers
+                        to process all the data behind the company's main product.
+                        I maintained and developed new features for all the components of the system,
+                        from the main server to the worker running each computation.
+                    </p>
+                    <h4>Library development</h4>
+                    <p>
+                        Developed libraries for the in-house processing system such as
+                        a data access library with several backends
+                        (SQLite, PostgreSQL, Azure Blob Storage & File System) and
+                        distributed processing library providing Pythonic abstractions to the system.
+                    </p>
+                    <h4>Data ingestion pipeline</h4>
+                    <p>
+                        Seamlessly integrating Prefect and dbt beyond the existing
+                        <a href="https://github.com/PrefectHQ/prefect-dbt">official solution</a> and
+                        extended dbt with a custom validation framework to suit the business requirements.
+                    </p>
+                    <p style="max-width: 100%; margin-top: 8px;"><b><i>Technologies:</i></b>
+                        <i style="font-weight:300">Python, PostgreSQL, Snowflake, SQLite, Azure Blob Storage, RabbitMQ,
+                            Flask, GraphQL, Prefect, dbt</i>
+                    </p>
+                </div>
             </div>
-            <div>
-                <h3>NOVA-FCT / NOVALINCS</h3>
-                MSc Thesis / Research Project - <i>October 2020 / September 2021</i>
-                <br />
-                <ul>
-                    <li>Researched the integration of typestates in Rust.</li>
-                    <li>Developed an embedded DSL for Rust, using procedural macros.</li>
-                    <li><a href="#publications">Published</a> articles on the topic.</li>
-                </ul>
-                Research Project - <i>February 2018 / July 2018</i>
-                <br />
-                <ul>
-                    <li>Partnership with IPMA.</li>
-                    <li>Hands-on experience with CUDA with a dash of QGIS.</li>
-                    <li>Developed a simulation model for the <a
+            <hr class="vspace-bar-16" />
+            <div class="work-experience-job">
+                <div class="work-experience-job-header">
+                    <h3>Open Source Developer</h3>
+                    <span>2018 - Present</span>
+                </div>
+                <hr class="vspace-16" />
+                <div class="work-experience-job-body">
+                    <h4>Actively contribute to the open-source community</h4>
+                    <p>Contributed with fixes and features to several projects such as
+                        <a href="https://github.com/pandas-dev/pandas/pulls?q=is%3Apr+author%3Ajmg-duarte">Pandas</a>,
+                        <a
+                            href="https://github.com/sqlalchemy/sqlalchemy/pulls?q=is%3Apr+author%3Ajmg-duarte">SQLAlchemy</a>,
+                        <a href="https://github.com/python-lz4/python-lz4/pulls?q=is%3Apr+author%3Ajmg-duarte">Python
+                            LZ4</a>,
+                        <a href="https://github.com/foambubble/foam/pulls?q=is%3Apr+author%3Ajmg-duarte">Foam</a> &
+                        <a href="https://github.com/PrefectHQ/prefect/pulls?q=is%3Apr+author%3Ajmg-duarte+">Prefect</a>.
+                    </p>
+                    <h4>Published open source projects</h4>
+                    <p><a href="https://github.com/jmg-duarte/sealed-rs">#[sealed]</a> -
+                        a procedural macro implementing the sealed trait pattern.</p>
+                    <p> <a href="https://github.com/rustype/typestate-rs">#[typestate]</a> -
+                        a procedural macro providing an embedded typestate DSL for Rust.</p>
+                    <p style="max-width: 100%; margin-top: 8px;"><b><i>Technologies:</i></b>
+                        <i style="font-weight:300">Rust, Python, git</i>
+                    </p>
+                </div>
+            </div>
+            <hr class="vspace-bar-16" />
+            <div class="work-experience-job">
+                <div class="work-experience-job-header">
+                    <h3>Junior Researcher at NOVA-FCT / NOVALINCS</h3>
+                    <span>February 2018 - July 2018 & October 2020 - September 2021</span>
+                </div>
+                <hr class="vspace-16" />
+                <div class="work-experience-job-body">
+                    <h4>Researched the integration of typestates in Rust.</h4>
+                    <p>Developed an embedded DSL for Rust, using procedural macros and <a
+                            href="#publications">published</a> articles on the topic.</p>
+                    <p style="max-width: 100%; margin-top: 8px;"><b><i>Technologies:</i></b>
+                        <i style="font-weight:300">Rust, LaTeX</i>
+                    </p>
+                    <h4>Developed a CUDA simulation model of the <a
                             href="https://www.ipma.pt/en/enciclopedia/otempo/risco.incendio/index.jsp?print=true">Fire
-                            Weather Index</a>.</li>
-                </ul>
+                            Weather Index</a>.</h4>
+                    <p>In partnership with <a href="https://www.ipma.pt/pt/index.html">IPMA</a>, my simulation was used
+                        to study the prediction of the FWI, using the
+                        wildfires of Pedrógão Grande was the analysis period.</p>
+                    <p style="max-width: 100%; margin-top: 8px;"><b><i>Technologies:</i></b>
+                        <i style="font-weight:300">Python, C, C++, CUDA, QGIS</i>
+                    </p>
+                </div>
             </div>
-            <div>
-                <h3>RootLee Capture The Flag Team</h3>
-                Co-Founder, Team Captain & Player - <i>March 2020 / September 2021</i>
-                <br />
-                <ul>
-                    <li>
-                        Overview and organize team participation in the competitions.
-                    </li>
-                    <li>
-                        As a player, I focused on Web, Cryptography and Reverse Engineering.
-                    </li>
-                </ul>
+            <hr class="vspace-bar-16" />
+            <div class="work-experience-job">
+                <div class="work-experience-job-header">
+                    <h3>Co-Founder of the RootLee <a href="https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)">CTF</a> Team</h3>
+                    <span>March 2020 - September 2021</span>
+                </div>
+                <hr class="vspace-16" />
+                <div class="work-experience-job-body">
+                    <h4>Managed the team</h4>
+                    <p>Overview and organize the team participation in the competitions.
+                        Within our first 6 months, we qualified for the CSAW 2020 finals.</p>
+                    <h4>Participated in competitions</h4>
+                    <p>As a player, I focused on Web, Cryptography and Reverse Engineering.
+                        You can find writeups of some of the challenges in my <a
+                            href="https://github.com/jmg-duarte/ctf-writeups">GitHub</a>.
+                    </p>
+                </div>
             </div>
-            <div>
-                <h3>FCT NOVA Cybersecurity Group</h3>
-                Co-Founder, Administrator & Speaker -
-                <i>September 2018 / March 2020</i>
-                <br />
-                <ul>
-                    <li>Manage the group meetups and activities (such as weekly workshops).</li>
-                </ul>
+            <hr class="vspace-bar-16" />
+            <div class="work-experience-job">
+                <div class="work-experience-job-header">
+                    <h3>Co-Founder of the FCT NOVA Cybersecurity Group</h3>
+                    <span>September 2018 - March 2020</span>
+                </div>
+                <hr class="vspace-16" />
+                <div class="work-experience-job-body">
+                    <h4>Managed the group</h4>
+                    <p>Overview and organized weekly open workshops related to cybersecurity.</p>
+                </div>
             </div>
-            <div>
-                <h3>Caixa Mágica</h3>
-                Summer Internship - <i>June 2019 / September 2019</i>
-                <br />
-                <ul>
-                    <li>
-                        Developed an Android SDK for the Portuguese Citizen Card.
-                    </li>
-                </ul>
+            <hr class="vspace-bar-16" />
+            <div class="work-experience-job">
+                <div class="work-experience-job-header">
+                    <h3>Summer Intern at Caixa Mágica</h3>
+                    <span>June 2019 - September 2019</span>
+                </div>
+                <hr class="vspace-16" />
+                <div class="work-experience-job-body">
+                    <h4>Developed an Android SDK for the Portuguese Citizen Card</h4>
+                    <p>The developed SDK aimed to provide a simple interface to the Portuguese Citizen Card to Android
+                        developers.
+                        To showcase the SDK's capabilities, an app was built. One of the key features was the ability to
+                        cryptographically sign data.
+                    </p>
+                    <p style="max-width: 100%; margin-top: 8px;"><b><i>Technologies:</i></b>
+                        <i style="font-weight:300">Kotlin, Android, Gradle</i>
+                    </p>
+                </div>
             </div>
-            <div>
-                <h3>Personal Tutor</h3>
-                Tutored several students on a variety of CS-related topics -
-                <i>Since 2016</i>
-                <br />
-                <ul>
-                    <li>Introduction to Programming - C programming.</li>
-                    <li>
-                        Programming Concepts - introduction to Haskell and functional
-                        programming.
-                    </li>
-                    <li>Computer Networks.</li>
-                </ul>
+            <hr class="vspace-bar-16" />
+            <div class="work-experience-job">
+                <div class="work-experience-job-header">
+                    <h3>Personal Tutor</h3>
+                    <span>2016 - Present</span>
+                </div>
+                <hr class="vspace-16" />
+                <div class="work-experience-job-body">
+                    <h4>Tutored several students on a variety of CS-related topics</h4>
+                    <p>C, Haskell and computer networks.</p>
+                </div>
             </div>
         </div>
-
         <hr />
         <div class="category">
             <h2 id="publications">Publications</h2>
             <div>
                 <ul>
-                    <li>Taming stateful computations in Rust with typestates - Journal of Computer Languages (<a
+                    <li><i>Taming stateful computations in Rust with typestates</i> - Journal of Computer Languages (<a
                             href="https://doi.org/10.1016/j.cola.2022.101154">10.1016/j.cola.2022.101154</a>)</li>
-                    <li>Retrofitting Typestates into Rust - SBLP'21 (<a
+                    <li><i>Retrofitting Typestates into Rust</i> - SBLP'21 (<a
                             href="https://doi.org/10.1145/3475061.3475082">10.1145/3475061.3475082</a>)</li>
                 </ul>
             </div>
@@ -193,114 +218,17 @@
         <div class="category" id="education">
             <h2>Education</h2>
             <div>
-                <h3>Computer Science MSc</h3>
-                <p class="course-school">
-                    <b>NOVA-FCT</b> - <i>September 2015 / September 2021</i>
-                </p>
-                <table>
-                    <tr>
-                        <th class="course-name">
-                            Thesis Presentation - Retrofitting Typestates into Rust
-                        </th>
-                        <th class="course-grade" title="19 out of 20">19</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Concurrent System Modelling and Validation
-                        </th>
-                        <th class="course-grade" title="18 out of 20">18</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Distributed Systems and Algorithms
-                        </th>
-                        <th class="course-grade" title="17 out of 20">17</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Dependable Distributed Systems
-                        </th>
-                        <th class="course-grade" title="17 out of 20">17</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Network and Computer Security
-                        </th>
-                        <th class="course-grade" title="17 out of 20">17</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Computer Networks
-                        </th>
-                        <th class="course-grade" title="17 out of 20">17</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Computer Networks' Architecture and Protocols
-                        </th>
-                        <th class="course-grade" title="16 out of 20">16</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Cloud Computation Systems
-                        </th>
-                        <th class="course-grade" title="16 out of 20">16</th>
-                    </tr>
-                </table>
-
-                <p class="course-school">
-                    <b>TU Dresden</b> - <i>September 2018 / March 2019</i>
-                </p>
-                <table>
-                    <tr>
-                        <th class="course-name">Knowledge Graphs</th>
-                        <th class="course-grade" title="17 out of 20">17</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Parallel Programming and High-Performance Computing
-                        </th>
-                        <th class="course-grade" title="16 out of 20">16</th>
-                    </tr>
-                    <tr>
-                        <th class="course-name">
-                            Application Development for Mobile and Ubiquitous Computing
-                        </th>
-                        <th class="course-grade" title="16 out of 20">16</th>
-                    </tr>
-                </table>
-            </div>
-        </div>
-
-        <hr />
-        <div class="category">
-            <h2 id="professional-skills">Professional Skills</h2>
-            <!-- TODO: take care of this space -->
-            <div class="pro-skills-container">
-                <div class="pro-skills-child">
-                    <h3>Programming Languages</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>Rust</li>
-                        <li>Kotlin</li>
-                        <li>Java</li>
-                        <li>Go</li>
-                        <li>C</li>
-                        <li>Bash</li>
-                    </ul>
+                <div class="work-experience-job-header">
+                    <h3>Computer Science MSc from NOVA-FCT</h3>
+                    <span>September 2015 - September 2021</span>
                 </div>
-                <div class="pro-skills-child">
-                    <h3>Tools & Platforms</h3>
-                    <ul>
-                        <li>Linux</li>
-                        <li>Git</li>
-                        <li>Azure</li>
-                        <li>Heroku</li>
-                        <li>Docker</li>
-                        <li>Maven</li>
-                        <li>Gradle</li>
-                    </ul>
+                <div class="work-experience-job-body">
+                    <p>Thesis - <i>Retrofitting Typestates into Rust</i> - 19 out of 20</p>
+                    <p>Final Average - 17 out of 20</p>
                 </div>
+                <!-- <p class="course-school">
+                    <b>TU Dresden</b> - <i>September 2018 - March 2019</i>
+                </p> -->
             </div>
         </div>
         <hr />
