@@ -61,16 +61,6 @@ table {
   align-items: center;
 }
 
-.course-name {
-  text-align: left;
-  font-style: italic;
-  font-weight: normal;
-}
-
-.course-grade {
-  text-align: right;
-}
-
 .skills-container {
   display: flex;
 }

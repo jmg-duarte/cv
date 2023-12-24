@@ -65,16 +65,6 @@ table {
   align-items: center;
 }
 
-.course-name {
-  text-align: left;
-  font-style: italic;
-  font-weight: normal;
-}
-
-.course-grade {
-  text-align: right;
-}
-
 .skills-container {
   display: flex;
 }
@@ -90,10 +80,6 @@ table {
 .pro-skills-child {
   flex: 1;
 }
-
-// .course-school {
-//     font-style: italic;
-// }
 
 #professional-skills {
   margin-bottom: 0;
