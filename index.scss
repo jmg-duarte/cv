@@ -47,7 +47,7 @@ hr {
 }
 
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #contact {
@@ -105,4 +105,12 @@ a:hover {
 
 body {
   margin: 2em;
+}
+
+b {
+  font-weight: 500;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
 }
